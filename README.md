@@ -5,17 +5,11 @@ This is a simple Streamlit app that generates a **meeting summary** and **action
 
 ## Setup
 
-1. **Install Requirements:**
+1. **Install the required packages**
 
 ```bash
-pip install langchain-core==0.3.49
-pip install langchain-groq==0.3.2
-pip install langgraph==0.3.21
-pip install langgraph-checkpoint==2.0.23
-pip install langgraph-prebuilt==0.1.7
-pip install langgraph-sdk==0.1.60
-pip install python-dotenv==1.1.0
-pip install streamlit==1.44.0
+pip install -r requirements.txt
+
 ```
 
 2. **Get a Groq API Key:**
